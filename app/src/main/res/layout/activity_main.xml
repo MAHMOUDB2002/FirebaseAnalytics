@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select content Event"
+        tools:layout_editor_absoluteX="155dp"
+        android:backgroundTint="@color/purple_200"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Private Event"
+        android:backgroundTint="@color/purple_200"
+        tools:layout_editor_absoluteX="157dp"
+        tools:layout_editor_absoluteY="565dp" />
+
+</LinearLayout>
